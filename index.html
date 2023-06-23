@@ -1,0 +1,15 @@
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+    <label for="name">Name:</label>
+    <input type="text" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" required>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" name="phone" required>
+
+    <label for="message">Message:</label>
+    <textarea name="message" rows="4" required></textarea>
+
+    <input type="submit" value="Submit">
+</form>
